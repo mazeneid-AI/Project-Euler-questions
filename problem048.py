@@ -1,4 +1,4 @@
-# Self Powers , Problem 48
+# Self Powers, Problem 48
 #The series, 1 1 + 2 2 + 3 3 + ⋯ + 10 10 = 10405071317 .
 #Find the last ten digits of the series, 1**1 + 2**2 + 3**3 + ⋯ + 1000**1000 .
 def limit_of_numbers()->int:
@@ -15,7 +15,7 @@ def limit_of_numbers()->int:
 def get_the_last_10_degit()->int:
   list2=[]
   for sum_of_numbers in str(sum(limit_of_numbers())):
-    """ raed the number"""
+    """ Read the number"""
     list2.append(sum_of_numbers)
     the_location_of_numbers=len(list2)-10
     """ get the location of last 10 degit"""
