@@ -1,4 +1,4 @@
-# Largest Palindrome Product , Problem 4
+# Largest Palindrome Product, Problem 4
 #A palindromic number reads the same both ways. The largest palindrome made from
 # the product of two 2-digit numbers is 9009=91*99
 #
@@ -13,9 +13,9 @@ def prodect_numbers()->int:
 def largest_palindrome_product()->int:
   list1=[]
   for answer in prodect_numbers():
-    """read the numbers"""
+    """ read the numbers"""
     if answer==int(str(answer)[::-1]):
-      """ check the numbers is palindrome or not"""
+      """ check if the numbers are palindromes or not"""
       list1.append(answer)
   return(max(list1))
   """ find the largest palindrome number"""
