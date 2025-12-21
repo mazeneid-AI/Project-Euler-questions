@@ -18,7 +18,7 @@ def get_the_last_10_degit()->int:
     """ Read the number"""
     list2.append(sum_of_numbers)
     the_location_of_numbers=len(list2)-10
-    """ get the location of last 10 degit"""
+    """ get the location of last 10 digit"""
   return("".join(list2[the_location_of_numbers:]))
 
 print(get_the_last_10_degit())
