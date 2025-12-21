@@ -1,4 +1,4 @@
-#Problem 25
+#Problem 29
 #Distinct Powers
 #
 #If they are then placed in numerical order, with any repeats removed, we get the 
