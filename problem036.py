@@ -6,12 +6,12 @@
 #base 10  and base 2.
 def double_base_palindromes()->int:
   number=0
-  list1=[]
+  sum1=0
   while number<1000000:
     number+=1
     if str(number)==str(number)[::-1] and bin(number)[2:]==bin(number)[2:][::-1]:
-      list1.append(number)
-  return sum(list1)
+      sum1+=number
+  return sum1
 print(double_base_palindromes())
       
 
