@@ -4,7 +4,7 @@
 #By listing the first six prime numbers 2,3,5,7,11 and 13
 #: , and 13 , we can see that the th6 prime is 13 .
 #What is the 10001st prime number?
-limit = 200000
+limit = 150000
 """ we know the limit from the equation
 nth prime≈nlogn
 nth prime≈n(logn+loglogn)
